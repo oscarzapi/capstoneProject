@@ -1,4 +1,4 @@
-### Project Title
+<img width="1761" height="81" alt="image" src="https://github.com/user-attachments/assets/d5594c81-771d-45c9-944f-06d9b0bd73a9" />### Project Title
 capstone Project
 
 **OSCAR ZAMORA**
@@ -18,25 +18,30 @@ Who is eligible for a loan approval?
 
 #### Methodology
 Will cover the following sections: 
-- Missing Value Analysis
-- Data Cleaning
-- Feature Engineering
-- Exploratory Data Analysis
-- Data preprocessing for numerical and categorical features
-- Data Clustering
-- Dimensionality Reduction with PCA
+- Missing Value Analysis: No missing values detected (per error), indicating clean datasets.
+- Data Cleaning: Post-Cleaning Missing Values: 0
+- Feature Engineering: New features (income_to_loan_ratio, debt_to_income_ratio, loan_interest_burden, etc.) capture affordability, risk, and stability.
+- Exploratory Data Analysis: Imbalanced loan_status (~70–80% approved) addressed by SMOTE, improving minority class prediction.
+- Data Clustering: Three clusters are detected depending on the age, income and employment length.
+- Dimensionality Reduction with PCA: 8 components explain ~95% variance.
 - Modelling with different Regression and classifier models
 
 #### Results
 Comparison table between all models' performance to detect the best models to be used.
 How providing a test dataset we can detect whether new loan requests will be approved based on the input features and the best model selected.
+The best model is XGBoost. It had the lowest total cost for the business: $1,835,102.90. It also had the highest accuracy of 95% and a strong F1 score of 0.805.
+
 
 #### Next steps
-To reduce the Business cost of these predictions by using different ML algorithms or Deep Learning approaches.
+- Tuning XGBoost (e.g., max_depth, learning_rate) to further minimize FP costs.
+- Considering cost-sensitive learning to prioritize FP reduction.
+- Exploring stacking XGBoost and Logistic Regression for better cost-performance trade-off.
+- Monitoring SMOTE overfitting; if F1 plateaus, try undersampling or class weights.
+
 
 #### Outline of project
 
-- https://github.com/oscarzapi/capstoneProject/blob/main/capstoneProjectEDA.ipynb
+- https://github.com/oscarzapi/capstoneProject/blob/main/capstoneProject.ipynb
 
 
 ##### Contact and Further Information

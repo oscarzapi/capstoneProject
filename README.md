@@ -1,4 +1,4 @@
-<img width="1761" height="81" alt="image" src="https://github.com/user-attachments/assets/d5594c81-771d-45c9-944f-06d9b0bd73a9" />### Project Title
+### Project Title
 capstone Project
 
 **OSCAR ZAMORA**
